@@ -11,6 +11,11 @@
     <engine name="cordova-android" version=">=6.3.0"/>
   </engines>
 
+  <dependency id="cordova-plugin-compat" version="^1.2.0" />
+  <js-module src="www/FusionAssessment.js" name="FusionAssessment">
+    <clobbers target="fusionetics.assessment" />
+  </js-module>
+
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
       <feature name="FusionAssessment">

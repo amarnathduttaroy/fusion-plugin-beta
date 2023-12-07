@@ -50,7 +50,7 @@
     <framework src="Foundation.framework" />
     <framework src="MobileCoreServices.framework" />
     <framework src="QuartzCore.framework" />
-    <framework src="MaterialComponents/ActivityIndicator" type="podspec" spec="~> 19.0.2" />
+    <podspec src="MaterialComponents/ActivityIndicator" />
 
     <preference name="CAMERA_USAGE_DESCRIPTION" default="" />
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">

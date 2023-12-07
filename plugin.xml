@@ -50,7 +50,15 @@
     <framework src="Foundation.framework" />
     <framework src="MobileCoreServices.framework" />
     <framework src="QuartzCore.framework" />
-    <podspec src="MaterialComponents/ActivityIndicator" />
+    <!-- <framework src="MaterialComponents/ActivityIndicator" type="podspec" spec="~> 19.0.2" />
+    <podspec>
+         <config>
+             <source url="https://github.com/CocoaPods/Specs.git"/>
+         </config>
+         <pods use-frameworks="true">
+             <pod name="MaterialComponents/ActivityIndicator" spec="~> 2.0.1" />
+         </pods>
+    </podspec> -->
 
     <preference name="CAMERA_USAGE_DESCRIPTION" default="" />
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">

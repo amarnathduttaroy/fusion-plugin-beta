@@ -56,7 +56,7 @@
              <source url="https://github.com/CocoaPods/Specs.git"/>
          </config>
          <pods use-frameworks="true">
-             <pod name="MaterialComponents/ActivityIndicator" spec="~> 19.0.2" />
+             <pod name="MaterialComponents/ActivityIndicator" spec="~> 124.2.0" />
          </pods>
     </podspec>
 
